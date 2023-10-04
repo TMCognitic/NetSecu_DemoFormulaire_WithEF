@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "99 Tools", "99 Tools", "{0C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools", "Tools\Tools.csproj", "{D6367594-F25C-4D89-8CF4-B3AFBBD59CF1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tools.Database", "Tools.Database\Tools.Database.csproj", "{C1C815BF-F82D-4F71-ACE4-CB4F5CD96D47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{D6367594-F25C-4D89-8CF4-B3AFBBD59CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6367594-F25C-4D89-8CF4-B3AFBBD59CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6367594-F25C-4D89-8CF4-B3AFBBD59CF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1C815BF-F82D-4F71-ACE4-CB4F5CD96D47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1C815BF-F82D-4F71-ACE4-CB4F5CD96D47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1C815BF-F82D-4F71-ACE4-CB4F5CD96D47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1C815BF-F82D-4F71-ACE4-CB4F5CD96D47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +54,7 @@ Global
 		{5912443A-31E9-4217-814F-5902716046C3} = {34F8C056-A50C-496A-919C-22A0A88A5B94}
 		{3C75D44E-F5F2-40A3-8FFB-D394E1967600} = {0CF804A5-E105-49BE-AF00-6AD06F072AE5}
 		{D6367594-F25C-4D89-8CF4-B3AFBBD59CF1} = {0C6B9289-0EDC-491E-B03E-C0A3130BAF09}
+		{C1C815BF-F82D-4F71-ACE4-CB4F5CD96D47} = {0C6B9289-0EDC-491E-B03E-C0A3130BAF09}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0DD65182-E40F-43B4-A91E-2AEDA50ED34B}

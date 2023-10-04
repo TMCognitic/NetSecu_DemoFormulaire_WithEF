@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\NetSecu_DemoFormulaire.Models.Domain\NetSecu_DemoFormulaire.Models.Domain.csproj" />
+    <ProjectReference Include="..\Tools.Database\Tools.Database.csproj" />
   </ItemGroup>
 
 </Project>
