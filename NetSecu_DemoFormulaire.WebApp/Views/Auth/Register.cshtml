@@ -1,0 +1,66 @@
+﻿@model NetSecu_DemoFormulaire.WebApp.Models.Forms.RegisterForm
+
+@{
+    ViewBag.Title = "Register";
+}
+
+<h1>Register</h1>
+
+<hr />
+
+<div class="row">
+    <div class="col-md-6">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <form method="post">
+            <div class="form-group">
+                <label asp-for="Nom"></label>
+                <input asp-for="Nom" class="form-control" />
+                <div>
+                    <span asp-validation-for="Nom" class="text-danger" />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Prenom"></label>
+                <input asp-for="Prenom" class="form-control" />
+                <div>
+                    <span asp-validation-for="Prenom" class="text-danger" />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Email"></label>
+                <input asp-for="Email" class="form-control" />
+                <div>
+                    <span asp-validation-for="Email" class="text-danger" />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Passwd"></label>
+                <input asp-for="Passwd" class="form-control" />
+                <div>
+                    <span asp-validation-for="Passwd" class="text-danger" />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Confirmation"></label>
+                <input asp-for="Confirmation" class="form-control" />
+                <div>
+                    <span asp-validation-for="Confirmation" class="text-danger" />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Register" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
